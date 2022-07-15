@@ -212,7 +212,6 @@ section {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
- 
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #4154f1;
@@ -338,7 +337,7 @@ section {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  
+  color: #012970;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #4154f1;
@@ -379,6 +378,7 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
+  background: url(../img/footer-bg.png) top center no-repeat;
   background-size: cover;
 }
 .hero h1 {
@@ -401,11 +401,6 @@ section {
   color: #fff;
   background: #4154f1;
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
- 
-}
-.hero .btn-get-started:hover{
-  background: #64e986;
-
 }
 .hero .btn-get-started span {
   font-family: "Nunito", sans-serif;
@@ -420,7 +415,6 @@ section {
 }
 .hero .btn-get-started:hover i {
   transform: translateX(5px);
-  color:#b2ffff;
 }
 .hero .hero-img {
   text-align: right;
@@ -658,8 +652,8 @@ section {
   border-radius: 0;
 }
 .features .feture-tabs .nav-link.active {
-  color: #012970;
-  border-bottom: 3px solid #012970;
+  color: #4154f1;
+  border-bottom: 3px solid #4154f1;
 }
 .features .feture-tabs .tab-content h4 {
   font-size: 18px;
@@ -1926,7 +1920,7 @@ section {
 
 .footer .footer-newsletter {
   padding: 50px 0;
-  background: #64e986;
+  background: #f6f9ff;
   border-top: 1px solid #e1ecff;
 }
 .footer .footer-newsletter h4 {
@@ -1969,12 +1963,11 @@ section {
   background: #5969f3;
 }
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background: white url(../img/pricing-free.png) no-repeat right top;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
   padding: 60px 0 30px 0;
-  
 }
 @media (max-width: 992px) {
   .footer .footer-top {
@@ -1993,15 +1986,12 @@ section {
   margin-right: 6px;
 }
 .footer .footer-top .footer-info .logo span {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #96c8a2;
+  color: #012970;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
-}
-.footer .footer-top .footer-info .logo span:hover{
-  color : #012970;
 }
 .footer .footer-top .footer-info p {
   font-size: 14px;
@@ -2023,13 +2013,10 @@ section {
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #96c8a2;
+  color: #012970;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-}
-.footer .footer-top h4:hover{
-  color : #012970;
 }
 .footer .footer-top .footer-links {
   margin-bottom: 30px;
@@ -2086,56 +2073,8 @@ section {
   text-align: center;
 }
 .footer {
-  background: #64e986;
+  background: #f6f9ff;
   padding-top: 0%;
   padding-bottom: 0px;
   font-size: 14px;
-}
-.table{
- background: #e7feff;
-}
-
-.transfer-option{
-  background:#4154f1;
-}
-.transfer_option{
-  color: #4154f1;
-  font-size: 20px;
-}
-.custtd{
-color: #2d2393;
-background:#ddedbf;
-
-
-}
-.custtd:hover{
- 
- background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
-}
-.custhead{
-background:#a3dc39;
-}
-.table{
-border:2px #3680db;
-}
-.transfertd{
- color:#012970;
-}
-.transferbutton{
-  display: inline-block;
-  padding: 8px 18px;
-  font-size: 20px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: 1;
-  color: #fff;
-  background-color: #012970;
-  border: none;
-  border-radius: 20px;
-
-}
-
-.transferbutton:hover{
- background:#64e986;
 }
